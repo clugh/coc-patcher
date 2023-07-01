@@ -286,7 +286,7 @@ if root.get('package') != config['package']:
 
 print('Checking libg.so ...')
 
-if not os.path.isfile(LIBG_X86):
+if not os.path.isfile(LIBG_ARM):
     print('ERROR: arm libg.so is missing.', file=sys.stderr)
     sys.exit(1)
 
